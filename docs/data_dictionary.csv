@@ -1,0 +1,13 @@
+Column,Description,Data Type,Usage
+InvoiceNo,Unique invoice or transaction identifier,String,Frequency calculation
+StockCode,Unique product identifier,String,Product identification
+Description,Product description,String,Product analysis
+Quantity,Number of products purchased,Integer,Revenue calculation
+InvoiceDate,Date and time of purchase,Datetime,Recency calculation
+UnitPrice,Price per individual product,Float,Monetary calculation
+CustomerID,Unique customer identifier,String,Customer grouping
+Country,Customer country,String,Geographical analysis
+Revenue,Quantity multiplied by UnitPrice,Float,Monetary calculation
+Recency,Days since the last purchase,Integer,RFM analysis
+Frequency,Number of distinct invoices,Integer,RFM analysis
+Monetary,Total customer spending,Float,RFM analysis

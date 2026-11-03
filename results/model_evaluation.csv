@@ -1,0 +1,3 @@
+Algorithm,Clusters,Silhouette Score,Davies-Bouldin Index,Noise Percentage
+K-Means,2,0.44933567192779644,0.9245298889038582,0.0
+DBSCAN,1,,,0.701426233341127
